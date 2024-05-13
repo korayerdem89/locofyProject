@@ -1,10 +1,12 @@
 import type { NextPage } from "next";
-import Column from "./column";
+import Link from 'next/link';
+
+import Column from './column';
 
 const Layout: NextPage = () => {
   return (
     <section className="self-stretch [background:linear-gradient(180deg,_#ff8c00,_#ffd700)] overflow-hidden flex flex-col items-center justify-center py-28 px-16 box-border gap-[80px] max-w-full text-center text-base text-primary font-poppins mq450:gap-[20px] mq800:gap-[40px] mq800:py-[47px] mq800:px-8 mq800:box-border mq1125:pt-[73px] mq1125:pb-[73px] mq1125:box-border mq750:gap-[40px] mq750:py-[47px] mq750:px-8 mq750:box-border mq1050:pt-[73px] mq1050:pb-[73px] mq1050:box-border">
-      <div className="w-[768px] flex flex-col items-center justify-start gap-[16px] max-w-full">
+      <div className="w-[1128px] flex flex-col items-center justify-start gap-[16px] max-w-full">
         <div className="relative leading-[150%] font-semibold inline-block min-w-[114px]">
           Revolutionary
         </div>
@@ -41,7 +43,12 @@ const Layout: NextPage = () => {
         <div className="flex flex-row items-center justify-start pt-4 px-0 pb-0 gap-[24px] text-left text-base">
           <button className="cursor-pointer py-2.5 px-[23px] bg-[transparent] flex flex-row items-center justify-center border-[1px] border-solid border-primary hover:bg-firebrick-200 hover:box-border hover:border-[1px] hover:border-solid hover:border-firebrick-100">
             <div className="relative text-base leading-[150%] font-poppins text-primary text-left inline-block min-w-[89px] whitespace-nowrap">
-              Learn More
+              <Link
+                href="https://app.gitbook.com/invite/KKhZbH1TU6J2wkCLpbOz/gnOuhOmIiXOOne338PuV"
+                className="cursor-pointer hover:text-primary transition-colors duration-200 no-underline  text-primary"
+              >
+                Learn More
+              </Link>
             </div>
           </button>
           <div className="h-6 hidden flex-row items-center justify-center gap-[8px]">

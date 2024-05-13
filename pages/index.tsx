@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
-import CTA from "../components/c-t-a";
-import CTA1 from "../components/c-t-a1";
-import Footer from "../components/footer";
-import Layout from "../components/layout";
-import Layout1 from "../components/layout1";
-import Navbar from "../components/navbar";
+import CTA from '../components/c-t-a';
+import CTA1 from '../components/c-t-a1';
+import Footer from '../components/footer';
+import Layout from '../components/layout';
+import Layout1 from '../components/layout1';
+import Navbar from '../components/navbar';
 
 const Home: NextPage = () => {
   return (

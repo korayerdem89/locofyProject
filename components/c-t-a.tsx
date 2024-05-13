@@ -10,14 +10,11 @@ const CTA: NextPage = () => {
         <b className="self-stretch relative text-base leading-[166%]">
           <span>{`EvolveRWA chose the `}</span>
           <span className="text-turquoise">Solana network</span>
-          <span>
-            {" "}
-            due to its high performance, scalability, and low transaction fees. 
-          </span>
+          <span> due to its high performance, scalability, and low transaction fees. </span>
         </b>
       </div>
       <div className="w-[457.4px] flex flex-col items-end justify-start gap-[30px] min-w-[457.4px] max-w-full text-base-7 text-mediumturquoise mq800:min-w-full mq1325:flex-1">
-        <div className="flex flex-row items-start justify-start gap-[8.8px]">
+        <div className="mq450:hidden flex flex-row items-start justify-start gap-[8.8px]">
           <img
             className="h-[42px] w-[42.6px] relative object-cover shrink-0 [debug_commit:1de1738]"
             loading="lazy"
@@ -30,10 +27,11 @@ const CTA: NextPage = () => {
             </b>
           </div>
         </div>
-        <button className="cursor-pointer py-3 px-5 bg-[transparent] self-stretch h-[53px] rounded-md [background:linear-gradient(88.64deg,_#cd5ceb_4.06%,_#3dd9d5)] box-border flex flex-row items-start justify-center whitespace-nowrap border-[1px] border-solid border-color-brand-black hover:bg-darkslategray-200 hover:box-border hover:border-[1px] hover:border-solid hover:border-darkslategray-100">
+        <button className="mq450:mt-10 cursor-pointer py-3 px-5 bg-[transparent] self-stretch h-[53px] rounded-md [background:linear-gradient(88.64deg,_#cd5ceb_4.06%,_#3dd9d5)] box-border flex flex-row items-center space-x-2 justify-center whitespace-nowrap border-[1px] border-solid border-color-brand-black hover:bg-darkslategray-200 hover:box-border hover:border-[1px] hover:border-solid hover:border-darkslategray-100">
           <b className="relative text-lg leading-[150%] font-poppins text-color-brand-black text-left">
             Buy on Jupiter
           </b>
+          <b className="text-rose-950 font-bold">(coming soon)</b>
         </button>
       </div>
     </section>
